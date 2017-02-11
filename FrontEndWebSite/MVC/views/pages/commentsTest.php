@@ -7,15 +7,16 @@ echo 'Testing Image Thing:';
 
 
 $bankID = 76903139;
+
 //$bankID['BankID']
-ImageBank::attemptCreateAppendNew("http://lorempixel.com/300/445/", "Apple sauce", $bankID );
-ImageBank::attemptCreateAppendNew("http://lorempixel.com/450/445/", "Merry Christmas", $bankID);
-ImageBank::attemptCreateAppendNew("http://lorempixel.com/450/445/", "Merry Bob", $bankID);
-ImageBank::attemptCreateAppendNew("http://lorempixel.com/500/445/", "Hi", $bankID);
-ImageBank::attemptCreateAppendNew("http://lorempixel.com/233/445/", "Mcdonalds", $bankID);
+// ImageBank::attemptCreateAppendNew("http://lorempixel.com/300/445/", "Apple sauce", $bankID );
+// ImageBank::attemptCreateAppendNew("http://lorempixel.com/450/445/", "Merry Christmas", $bankID);
+// ImageBank::attemptCreateAppendNew("http://lorempixel.com/450/445/", "Merry Bob", $bankID);
+// ImageBank::attemptCreateAppendNew("http://lorempixel.com/500/445/", "Hi", $bankID);
+// ImageBank::attemptCreateAppendNew("http://lorempixel.com/233/445/", "Mcdonalds", $bankID);
 
 
-$images = ImageBank::getBankID($bankID['BankID']);
+$images = ImageBank::getBankID($bankID);
 
 
 echo '<pre>';
@@ -26,10 +27,13 @@ echo '</pre>';
 
 echo '<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">';
 	echo '<div class="carousel-inner" role="listbox">';
+
 foreach ($images as $image) {
+
 	echo '<div class="carousel-item carousel-item-next carousel-item-left">';
 	
 		echo '<img src="' . $image['Imagesrc'] . '"" class="img-fluid d-block" data-holder-rendered="true" ' . $image['alt'] . '">';
+
 	echo '</div>';
 
 }
