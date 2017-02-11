@@ -52,6 +52,10 @@
 
       callStructural('header','std',$pageRequirements);
 
+      //Model:
+      require_once('../MVC/models/ImageBank.php');
+
+
       require_once('views/pages/commentsTest.php');
 
       //Render the page footer:
