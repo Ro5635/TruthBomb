@@ -6,14 +6,18 @@ echo '<body>';
 echo 'Testing Image Thing:';
 
 
-ImageBank::attemptCreateNew("http://lorempixel.com/400/445/", "This is an image alt");
-ImageBank::attemptCreateNew("http://lorempixel.com/300/445/", "Apple sauce");
-$bankID = ImageBank::attemptCreateNew("http://lorempixel.com/450/445/", "Merry Christmas");
+$bankID = ImageBank::attemptCreateNew("http://lorempixel.com/400/445/", "This is an image alt");
+ImageBank::attemptCreateAppendNew("http://lorempixel.com/300/445/", "Apple sauce", $bankID);
+ImageBank::attemptCreateAppendNew("http://lorempixel.com/450/445/", "Merry Christmas", $bankID);
 
 
 $images = ImageBank::getBankID($bankID['BankID']);
 
+
+echo '<pre>';
 var_dump($images);
+
+echo '</pre>';
 
 foreach ($images as $image) {
 	
