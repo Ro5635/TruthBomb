@@ -1,0 +1,71 @@
+//Base SASS file for this site
+
+//At the top for early parsing:
+.hideThis{
+	display: none;
+}
+
+//Colours
+///* Coolors Exported Palette - coolors.co/256eff-46237a-3ddc97-fcfcfc-ff495c */
+
+/* RGB */
+$color1: rgba(37, 110, 255, 1);
+$color2: rgba(70, 35, 122, 1);
+$color3: rgba(61, 220, 151, 1);
+$color4: rgba(252, 252, 252, 1);
+$color5: rgba(255, 73, 92, 1);
+
+
+@import url('https://fonts.googleapis.com/css?family=Dosis|Raleway');
+
+
+.PageTitle{
+
+	font-family: 'Dosis', sans-serif;
+	font-size: 2em;
+	text-align: center;
+
+}
+
+
+.brandName{
+	color: white;
+	font-family: 'Dosis', sans-serif;
+
+}
+
+.headingText{
+	font-family: 'Dosis', sans-serif;
+	font-size: 2.2em;
+	
+}
+
+.contentText{
+	color: white;
+	font-family: 'Dosis', sans-serif;
+
+}
+
+//Set page background colour
+body{
+	background-color: $color4;
+
+}
+
+//Makes buttons central
+.buttonBar{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	
+	.btn{
+		display: inline-block;
+
+	}
+}
+
+//button spacer
+.btnSpacer {
+	margin-right: 2%;
+}

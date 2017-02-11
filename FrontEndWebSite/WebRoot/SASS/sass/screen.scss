@@ -1,0 +1,15 @@
+@import "compass";
+@import "partials/variables";
+@import "partials/normalize";
+@import "partials/mixins";
+@import "partials/base";
+@import "compass/css3";
+
+
+
+
+
+//ToolTip:
+.TT {
+	@include  hui_tooltip(attr(data-tooltip),  "top");
+}
