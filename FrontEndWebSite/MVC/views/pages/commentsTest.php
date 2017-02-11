@@ -7,8 +7,8 @@ echo 'Testing Image Thing:';
 
 
 $bankID = ImageBank::attemptCreateNew("http://lorempixel.com/400/445/", "This is an image alt");
-ImageBank::attemptCreateAppendNew("http://lorempixel.com/300/445/", "Apple sauce", $bankID);
-ImageBank::attemptCreateAppendNew("http://lorempixel.com/450/445/", "Merry Christmas", $bankID);
+ImageBank::attemptCreateAppendNew("http://lorempixel.com/300/445/", "Apple sauce", $bankID['BankID']);
+ImageBank::attemptCreateAppendNew("http://lorempixel.com/450/445/", "Merry Christmas", $bankID['BankID']);
 
 
 $images = ImageBank::getBankID($bankID['BankID']);
