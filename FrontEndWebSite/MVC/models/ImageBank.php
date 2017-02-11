@@ -201,8 +201,6 @@ class ImageBank {
 			$images = $req->fetchAll();
 
 			if(count($images) > 0 ){
-
-				$images = $images[0];
 				
 				return $images;
 
