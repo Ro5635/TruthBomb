@@ -1,9 +1,3 @@
-<?php
-
-echo '<body>';
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,3 +36,4 @@ echo '<body>';
 
   
 </body>
+
