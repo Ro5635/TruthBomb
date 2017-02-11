@@ -11,7 +11,7 @@ ImageBank::attemptCreateNew("http://lorempixel.com/300/445/", "Apple sauce");
 $bankID = ImageBank::attemptCreateNew("http://lorempixel.com/450/445/", "Merry Christmas");
 
 
-$images = ImageBank::getBankID($bankID);
+$images = ImageBank::getBankID($bankID['BankID']);
 
 var_dump($images);
 
