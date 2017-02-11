@@ -56,6 +56,7 @@ class ImageBank {
 
 	 		$db = Db::getInstance();
 
+	 		$attemps  = 0;
 
 	 		do {
 
@@ -140,6 +141,7 @@ class ImageBank {
 
 	 		$db = Db::getInstance();
 
+	 		$attemps = 0;
 
 	 		do {
 
