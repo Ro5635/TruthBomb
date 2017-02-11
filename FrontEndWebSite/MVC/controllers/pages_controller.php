@@ -19,10 +19,12 @@
 
       $pageRequirements->add("js", ['assets/JS/js.js', 'assets/JS/DiscusScript.js']);
 
-
-
       callStructural('header','std',$pageRequirements);
 
+      //Model:
+      require_once('../MVC/models/ImageBank.php');
+
+      //View:  
       require_once('views/pages/home.php');
 
       //Render the page footer:

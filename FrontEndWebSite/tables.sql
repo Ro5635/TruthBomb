@@ -1,0 +1,3 @@
+-- This is the database tables, initialy anyway...
+
+CREATE TABLE ImageBank( ImageID int unsigned NOT NULL primary key , BankID int unsigned NOT NULL, Imagesrc varchar(300) NOT NULL , alt varchar(600))

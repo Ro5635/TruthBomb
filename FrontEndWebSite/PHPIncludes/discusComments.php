@@ -10,5 +10,3 @@
 
 
 echo '<div id="disqus_thread"></div>';
-
-
