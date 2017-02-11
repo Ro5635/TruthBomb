@@ -32,7 +32,7 @@ foreach ($images as $image) {
 
 	echo '<div class="carousel-item carousel-item-next carousel-item-left">';
 	
-		echo '<img src="' . $image['Imagesrc'] . '"" class="img-fluid d-block" data-holder-rendered="true" ' . $image['alt'] . '">';
+		echo '<img src="' . $image['Imagesrc'] . '" class="img-fluid d-block" data-holder-rendered="true" ' . $image['alt'] . '">';
 
 	echo '</div>';
 
