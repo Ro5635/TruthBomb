@@ -1,6 +1,6 @@
 <?php
 
-echo '<home>';
+echo '<body>';
 
 
 
