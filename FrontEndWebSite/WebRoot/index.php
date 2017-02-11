@@ -41,13 +41,13 @@
 	$redirectBackTo;
 
 	//If any outher controller than the login or pages ensure that the login details have been checked.
-    if( !in_array($controller, array('login',  'pages', 'lease', 'ajax')) ){
+ //    if( !in_array($controller, array('login',  'pages', 'lease', 'ajax')) ){
 
-    	$_SESSION['bouncedToLoginFrom'] = $redirectBackTo = '/' . $controller . '/' . $action;
+ //    	$_SESSION['bouncedToLoginFrom'] = $redirectBackTo = '/' . $controller . '/' . $action;			//HACKY DISABLE LOGIN FOR ASTONUNIHACK
     
-    	require_once($_SERVER['DOCUMENT_ROOT'] . '../PHPIncludes/checkLoginState.php');
+ //    	require_once($_SERVER['DOCUMENT_ROOT'] . '../PHPIncludes/checkLoginState.php');
 	
-	}
+	// }
 
 
 	//Call standardisation to continue with page rendering:

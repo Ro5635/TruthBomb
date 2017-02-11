@@ -15,9 +15,9 @@
       
       $pageRequirements->add("css", ['MainStyles.css','animate.min.css']);
 
-      $pageRequirements->add("title", 'Page title');
+      $pageRequirements->add("title", 'Truth Bomb');
 
-      $pageRequirements->add("js", ['assets/JS/js.js']);
+      $pageRequirements->add("js", ['assets/JS/js.js', 'assets/JS/DiscusScript.js']);
 
 
 
@@ -30,6 +30,37 @@
 
 
     }
+
+
+    public function commentstest() {
+
+      //Require the class for storing CSS and Script requirements:
+      require_once($_SERVER['DOCUMENT_ROOT'] . '/../PHPIncludes/pageLinkScriptsCSS.php');
+
+      //Make an object of the pageLinkScriptsCSS class for storing the CSS requirements for the header:
+      $pageRequirements = new pageLinkScriptsCSS();
+      
+      $pageRequirements->add("css", ['MainStyles.css','animate.min.css']);
+
+      $pageRequirements->add("title", 'Truth Bomb');
+
+      $pageRequirements->add("js", ['assets/JS/js.js', 'assets/JS/DiscusScript.js']);
+
+
+
+      callStructural('header','std',$pageRequirements);
+
+      require_once('views/pages/commentsTest.php');
+
+      //Render the page footer:
+      callStructural("footer", 'std', $pageRequirements); 
+
+
+    }
+
+
+
+
 
     public function error() {
 
@@ -51,4 +82,3 @@
 
     }
   }
-?>
