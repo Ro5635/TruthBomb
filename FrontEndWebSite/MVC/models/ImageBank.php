@@ -169,7 +169,7 @@ class ImageBank {
 
 
 	 		//Call the create image
-	 		return attemptCreateAppendNew($imageSrc, $imageAlt, $FoundBankID);
+	 		return ImageBank::attemptCreateAppendNew($imageSrc, $imageAlt, $FoundBankID);
 
 
 	 	}else{
