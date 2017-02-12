@@ -47,3 +47,7 @@ include($_SERVER['DOCUMENT_ROOT'].'/../PHPIncludes/Views/Menus/StdMenuBar.php');
  </div>  
 </body>
 
+<<<<<<< HEAD
+=======
+echo 'THIS IS THE PAGE Pineapple';
+>>>>>>> 15f3c9b2a805d701607a947026ca1ec552913015
