@@ -12,12 +12,12 @@ echo '<div class="carousel-inner" role="listbox">';
 $count = 0;
 foreach ($items as $item){
   if ($count == 0){
-    echo '<div class="carousel-item>';
-    echo ("WHO DEM BOYS");
+    echo '<div class="carousel-item active>';
+    echo "WHO DEM BOYS";
   }
   else{
-    echo '<div class="carousel-item-active>';
-    echo ("WE DEM BOYS");
+    echo '<div class="carousel-item>';
+    echo "WE DEM BOYS";
   }
   echo '<img class="d-block img-fluid" src="' . $item['Imagesrc'] . '" alt="' . $item['alt'] . '">';
   echo '</div>';
