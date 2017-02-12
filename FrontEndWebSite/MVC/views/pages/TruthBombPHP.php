@@ -10,14 +10,13 @@ echo ("Obtains image bank!");
 echo '<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">';
 echo '<div class="carousel-inner" role="listbox">';
 $count = 0;
-var_dump($items);
 foreach ($items as $item){
   if ($count == 0){
-    echo '<div class="carousel-item active>';
+    echo '<div class="carousel-item active">';
     echo "WHO DEM BOYS";
   }
   else{
-    echo '<div class="carousel-item>';
+    echo '<div class="carousel-item">';
     echo "WE DEM BOYS";
   }
   echo '<img class="d-block img-fluid" src="' . $item['Imagesrc'] . '" alt="' . $item['alt'] . '">';
