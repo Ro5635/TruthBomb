@@ -1,5 +1,5 @@
 <?php
-// This model is responsible for handaling the image bank.
+// This model is responsible for handling the image bank.
 //
 // @author Robert Curran robert@robertcurran.co.uk
 
@@ -9,11 +9,11 @@ class ImageBank {
 	public $imageAlt;
 	public $imageID;
 	public $bankID;
-	
+
 
 
 	public function __construct($imageSrc, $imageAlt, $imageID, $bankID) {
-		
+
 		//Set the instance variables
 		$this->imageSrc = $imageSrc;
 		$this->imageAlt = $imageAlt;
@@ -50,7 +50,7 @@ class ImageBank {
 
 	 	}
 
-		//If all of the arguments are complete then procced to create the account
+		//If all of the arguments are complete then proceed to create the account
 	 	if(!$anArgumentFailed){
 
 
@@ -61,12 +61,12 @@ class ImageBank {
 	 		do {
 
 	 			if($attemps > 5){
-					//More than five atetmpts to get an unused ID, something is BADLY wrong.
+					//More than five attempts to get an unused ID, something is BADLY wrong.
 	 				error_log("FATAL ERROR, Unable to find a unique Id for the new run");
 	 				die();
 	 			}
 
-    			//Generate a psudo random number for use as the id, no need for crytographic randomness, not thsi does pose a limuit on the number of custoemrs! :)
+    			//Generate a psudo random number for use as the id, no need for cryptographic randomness, not this does pose a limit on the number of customers! :)
 	 			$randomNumber = rand(1000000, 99999999);
 
 				//Check to see that the index is not in use:
@@ -151,7 +151,7 @@ class ImageBank {
 	 				die();
 	 			}
 
-    			//Generate a psudo random number for use as the id, no need for crytographic randomness, not thsi does pose a limuit on the number of custoemrs! :)
+    			//Generate a psudo random number for use as the id, no need for cryptographic randomness, note this does pose a limit on the number of customers! :)
 	 			$randomNumber = rand(1000000, 99999999);
 
 				//Check to see that the index is not in use:
@@ -201,7 +201,7 @@ class ImageBank {
 			$images = $req->fetchAll();
 
 			if(count($images) > 0 ){
-				
+
 				return $images;
 
 			}else{
@@ -232,7 +232,7 @@ class ImageBank {
 			if(count($images) > 0){
 
 				$images = $images[0];
-				
+
 				return $images;
 
 			}else{
