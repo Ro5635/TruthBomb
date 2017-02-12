@@ -5,9 +5,9 @@ $(document).ready(function(){
 
 	$('#subReviewButt').click(function(){
 
-		siteURL = $('#formWebsite').val();
+		var siteURL = $('#formWebsite').val();
 
-		userRating = $('#alignment').val();
+		var userRating = $('#alignment').val();
 
 		var dataToTransmit = 'siteurl=' + siteURL + '&rating=' + userRating;
 
