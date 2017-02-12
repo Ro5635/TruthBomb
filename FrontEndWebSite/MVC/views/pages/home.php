@@ -42,11 +42,10 @@ include($_SERVER['DOCUMENT_ROOT'].'/../PHPIncludes/Views/Menus/StdMenuBar.php');
           <div class="row">
             <div class="col-sm-8"></div>
         <div class="col-sm-4">
-	  </br>
       	  <a href="/pages/donate">
 	        <button type="button" class="btn btn-primary">Donate!!!</button>
 	  </a>
-	</div>
      </div>
+   </div>
  </div>
 </body>
