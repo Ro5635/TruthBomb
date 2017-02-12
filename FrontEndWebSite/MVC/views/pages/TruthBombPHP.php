@@ -13,13 +13,11 @@ $count = 0;
 foreach ($items as $item){
   if ($count == 0){
     echo '<div class="carousel-item active">';
-    echo "WHO DEM BOYS";
   }
   else{
     echo '<div class="carousel-item">';
-    echo "WE DEM BOYS";
   }
-  echo '<img class="d-block img-fluid" src="' . $item['Imagesrc'] . '" alt="' . $item['alt'] . '">';
+  echo '<img class="d-block img-fluid width=660" src="' . $item['Imagesrc'] . '" alt="' . $item['alt'] . '">';
   echo '</div>';
   $count++;
 }
