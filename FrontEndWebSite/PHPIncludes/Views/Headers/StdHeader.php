@@ -1,7 +1,7 @@
 <DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="Refresh" content="3">
+    <!-- <meta http-equiv="Refresh" content="3"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php
 
