@@ -8,11 +8,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/../PHPIncludes/Views/Menus/StdMenuBar.p
 
 ?>
 
-
-
-
  <div class="jumbotron text-center">
-    <a href="home.php"><h1>Truth Bomb</h1></a>
+    <a href=/pages/home"><h1>Truth Bomb</h1></a>
     <p><h3>Thanks for Donating!</h3></p>
  </div>
  <div="container">
