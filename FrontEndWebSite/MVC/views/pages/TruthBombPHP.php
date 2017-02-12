@@ -8,8 +8,8 @@
 $items = ImageBank::getBankID(4727744);
 echo ("Obtains image bank!");
 echo '<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">';
-echo ("Probably breaks at this point");
 echo '<div class="carousel-inner" role="listbox">';
+echo ("Probably breaks at this point");
 $count = 0;
 foreach ($items as $item){
   if ($count == 0){
