@@ -35,7 +35,7 @@ include($_SERVER['DOCUMENT_ROOT'].'/../PHPIncludes/Views/Menus/StdMenuBar.php');
       <!-- Where slideshow will be for trusted sources, created in a new row -->
         <div class="col-sm-8">
 	<!-- Carousel code starts here -->
-  <?php require_once($_SERVER['DOCUMENT_ROOT'].'../MVC/views/page/TruthBombPHP.php');?>
+  <?php require_once($_SERVER['DOCUMENT_ROOT'].'../MVC/views/pages/TruthBombPHP.php');?>
   <!-- Carousel code ends here -->
         </div>
         <div class="col-sm-4">
