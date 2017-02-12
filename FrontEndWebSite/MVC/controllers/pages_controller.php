@@ -34,6 +34,68 @@
     }
 
 
+    public function about() {
+
+      //Require the class for storing CSS and Script requirements:
+      require_once($_SERVER['DOCUMENT_ROOT'] . '/../PHPIncludes/pageLinkScriptsCSS.php');
+
+      //Make an object of the pageLinkScriptsCSS class for storing the CSS requirements for the header:
+      $pageRequirements = new pageLinkScriptsCSS();
+      
+      $pageRequirements->add("css", ['MainStyles.css','animate.min.css']);
+
+      $pageRequirements->add("title", 'Truth Bomb');
+
+      $pageRequirements->add("js", ['assets/JS/js.js', 'assets/JS/DiscusScript.js']);
+
+      callStructural('header','std',$pageRequirements);
+
+      //Model:
+      require_once('../MVC/models/ImageBank.php');
+
+      //View:  
+      require_once('views/pages/about.php');
+
+      //Render the page footer:
+      callStructural("footer", 'std', $pageRequirements); 
+
+
+    }
+
+
+    public function donate() {
+
+      //Require the class for storing CSS and Script requirements:
+      require_once($_SERVER['DOCUMENT_ROOT'] . '/../PHPIncludes/pageLinkScriptsCSS.php');
+
+      //Make an object of the pageLinkScriptsCSS class for storing the CSS requirements for the header:
+      $pageRequirements = new pageLinkScriptsCSS();
+      
+      $pageRequirements->add("css", ['MainStyles.css','animate.min.css']);
+
+      $pageRequirements->add("title", 'Truth Bomb');
+
+      $pageRequirements->add("js", ['assets/JS/js.js', 'assets/JS/DiscusScript.js']);
+
+      callStructural('header','std',$pageRequirements);
+
+      //Model:
+      require_once('../MVC/models/ImageBank.php');
+
+      //View:  
+      require_once('views/pages/donationPage.php');
+
+      //Render the page footer:
+      callStructural("footer", 'std', $pageRequirements); 
+
+
+    }
+
+
+
+    //include($_SERVER['DOCUMENT_ROOT'].'/../PHPIncludes/Libraries/HTMLTagExperimental.php');
+
+
     public function commentstest() {
 
       //Require the class for storing CSS and Script requirements:
