@@ -16,20 +16,20 @@ foreach ($items as $item){
   else{
     echo '<div class="carousel-item">';
   }
-  echo '<img class="d-block img-fluid width=500px height=346.25px src="' . $item['Imagesrc'] . '" alt="' . $item['alt'] . '">';
+  echo '<img class="d-block img-fluid width="500px" height="345px" src="' . $item['Imagesrc'] . '" alt="' . $item['alt'] . '">';
   echo '</div>';
   $count++;
 }
 echo '</div>';
 echo '<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">';
-echo '<span class="carousel-control-prev-icon" aria-hidden="true">'
-echo '</span>'
-echo '<span class="sr-only">Previous</span>'
-echo '</a>'
-echo '<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">'
-echo '<span class="carousel-control-next-icon" aria-hidden="true">'
-echo '</span>'
-echo '<span class="sr-only">Next</span>'
-echo '</a>'
+echo '<span class="carousel-control-prev-icon" aria-hidden="true">';
+echo '</span>';
+echo '<span class="sr-only">Previous</span>';
+echo '</a>';
+echo '<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">';
+echo '<span class="carousel-control-next-icon" aria-hidden="true">';
+echo '</span>';
+echo '<span class="sr-only">Next</span>';
+echo '</a>';
 echo '</div>';
 ?>
