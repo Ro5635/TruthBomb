@@ -16,10 +16,11 @@ foreach ($items as $item){
   else{
     echo '<div class="carousel-item">';
   }
-  echo '<img class="d-block img-fluid style="max-height:100px" src="' . $item['Imagesrc'] . '" alt="' . $item['alt'] . '">';
+  echo '<img src="' . $item['Imagesrc'] . '" alt="' . $item['alt'] . ' . width="128" height="128"">';
   echo '</div>';
   $count++;
 }
+//style="max-height:100px"
 echo '</div>';
 echo '<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">';
 echo '<span class="carousel-control-prev-icon" aria-hidden="true">';
