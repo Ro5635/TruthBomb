@@ -112,17 +112,12 @@ class Site {
 
 
 
-	}else{
-
-		error_log("There was an error in an argument!");
-		die();
-
 	}
 
 
 
 
-}
+
 
 
 

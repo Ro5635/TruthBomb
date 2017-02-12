@@ -24,13 +24,14 @@ class ajaxController {
 	 * Handle the login attempt
  	* @return [type] [description]
 	 */
-	public function registerVote() {
+	public function registervote() {
 
+		error_log("Got to message");
 	    //Model:
 		require_once('../MVC/models/Site.php');
 
 		//view:
-		require_once('views/ajax/loginHandle.php');
+		require_once('views/ajax/registerVote.php');
 
 
 	}
