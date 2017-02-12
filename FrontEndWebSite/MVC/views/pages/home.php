@@ -10,7 +10,7 @@ include($_SERVER['DOCUMENT_ROOT'].'/../PHPIncludes/Views/Menus/StdMenuBar.php');
 
   <!-- Title of site -->
 <div class="jumbotron text-center bg-primary">
-  <img src="http://cdn.webaddressgoeshere.com/AstonUniHack/truthbomblogo.png" alt="Truth Bomb's Logo">	 
+  <img src="http://cdn.webaddressgoeshere.com/AstonUniHack/truthbomblogo.png" alt="Truth Bomb's Logo">
     <a href="/pages/home"><h1><big><p class="text-white">Truth Bomb</p></big></h1></a>
 </div>
 
@@ -35,15 +35,15 @@ include($_SERVER['DOCUMENT_ROOT'].'/../PHPIncludes/Views/Menus/StdMenuBar.php');
       <!-- Where slideshow will be for trusted sources, created in a new row -->
         <div class="col-sm-8">
 	<!-- Carasel code starts here -->
-        <!-- Carasel code ends here -->
+  <?php echo "Hello World!"; require_once('MVC/views/page/TruthBombPHP.php'); echo "Hello World"; ?>
+  <!-- Carousel code ends here -->
         </div>
         <div class="col-sm-4">
 	  </br>
       	  <a href="/pages/donate">
-	    <button type="button" class="btn btn-primary">Donate!!!</button> 
+	    <button type="button" class="btn btn-primary">Donate ⊂(´・ω・｀⊂)</button> 
 	  </a>
-	</div>	
+	</div>
      </div>
- </div>  
+ </div>
 </body>
-
