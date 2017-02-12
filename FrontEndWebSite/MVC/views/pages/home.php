@@ -28,10 +28,19 @@ include($_SERVER['DOCUMENT_ROOT'].'/../PHPIncludes/Views/Menus/StdMenuBar.php');
 <div class="row">
       <!-- Where slideshow will be for trusted sources, created in a new row -->
       <div class="col-sm-8">
+
+        <div class="row">
 	<!-- Carousel code starts here -->
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
   <?php require_once($_SERVER['DOCUMENT_ROOT'].'../MVC/views/pages/TruthBombPHP.php');?>
   <!-- Carousel code ends here -->
+</div>
+  <div class="col-sm-2"></div>
         </div>
+        <!-- End Row  -->
+      </div>
+
         <div class="col-sm-4">
         <!-- where forum will be, fills up the rest of the pages columns -->
            <a href="/pages/review">
