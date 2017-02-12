@@ -63,6 +63,36 @@
     }
 
 
+
+    public function review() {
+
+      //Require the class for storing CSS and Script requirements:
+      require_once($_SERVER['DOCUMENT_ROOT'] . '/../PHPIncludes/pageLinkScriptsCSS.php');
+
+      //Make an object of the pageLinkScriptsCSS class for storing the CSS requirements for the header:
+      $pageRequirements = new pageLinkScriptsCSS();
+      
+      $pageRequirements->add("css", ['MainStyles.css','animate.min.css']);
+
+      $pageRequirements->add("title", 'Truth Bomb');
+
+      $pageRequirements->add("js", ['assets/JS/js.js', 'assets/JS/DiscusScript.js']);
+
+      callStructural('header','std',$pageRequirements);
+
+      //Model:
+      require_once('../MVC/models/ImageBank.php');
+
+      //View:  
+      require_once('views/pages/formSubmit.php');
+
+      //Render the page footer:
+      callStructural("footer", 'std', $pageRequirements); 
+
+
+    }
+
+
     public function donate() {
 
       //Require the class for storing CSS and Script requirements:

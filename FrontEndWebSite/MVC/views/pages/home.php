@@ -11,7 +11,7 @@ include($_SERVER['DOCUMENT_ROOT'].'/../PHPIncludes/Views/Menus/StdMenuBar.php');
   <!-- Title of site -->
 <div class="jumbotron text-center bg-primary">
   <img src="http://cdn.webaddressgoeshere.com/AstonUniHack/truthbomblogo.png" alt="Truth Bomb's Logo">	 
-    <a href="TruthBombSite.html"><h1><big><p class="text-white">Truth Bomb</p></big></h1></a>
+    <a href="/pages/home"><h1><big><p class="text-white">Truth Bomb</p></big></h1></a>
 </div>
 
 
@@ -26,7 +26,7 @@ include($_SERVER['DOCUMENT_ROOT'].'/../PHPIncludes/Views/Menus/StdMenuBar.php');
       </div>
       <div class="col-sm-4">
 	<!-- where forum will be, fills up the rest of the pages columns -->
-	<a href="forumSubmitPage.html">
+	<a href="/pages/review">
 	  <button type="button" class="btn btn-primary">Submit a review</button>
 	</a>
       </div>
