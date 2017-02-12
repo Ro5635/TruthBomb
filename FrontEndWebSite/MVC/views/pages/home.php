@@ -34,14 +34,14 @@ include($_SERVER['DOCUMENT_ROOT'].'/../PHPIncludes/Views/Menus/StdMenuBar.php');
     <div class="row">
       <!-- Where slideshow will be for trusted sources, created in a new row -->
         <div class="col-sm-8">
-	<!-- Carasel code starts here -->
-  <?php echo "Hello World!"; require_once('MVC/views/page/TruthBombPHP.php'); echo "Hello World"; ?>
+	<!-- Carousel code starts here -->
+  <?php require_once($_SERVER['DOCUMENT_ROOT'].'../MVC/views/page/TruthBombPHP.php');?>
   <!-- Carousel code ends here -->
         </div>
         <div class="col-sm-4">
 	  </br>
       	  <a href="/pages/donate">
-	    <button type="button" class="btn btn-primary">Donate ⊂(´・ω・｀⊂)</button> 
+	    <button type="button" class="btn btn-primary">Donate ⊂(´・ω・｀⊂)</button>
 	  </a>
 	</div>
      </div>
