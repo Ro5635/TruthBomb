@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 	$('#subReviewButt').click(function(){
 
-		siteURL = $('#formWebsite').val():
+		siteURL = $('#formWebsite').val();
 
 		userRating = $('#alignment').val();
 

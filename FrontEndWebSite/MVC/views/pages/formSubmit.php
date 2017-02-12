@@ -11,7 +11,7 @@
 </head>
 <body>
  <div class="jumbotron text-center">
-    <a href="TruthBombSite.html"><h1>Truth Bomb</h1></a>
+    <a href="/pages/home"><h1>Truth Bomb</h1></a>
     <p><h3>Website Review Form</h3></p>
  </div> 
 <div class="container">  
@@ -26,41 +26,16 @@
       </div>
 
 
-<div class="form-check">
-  <label class="form-check-label">
-    <input class="form-check-input" type="radio" name="ratingRadios"
-           id="ratingRadios1" value="1" checked>
-   1 Star
-  </label>
+<input type="hidden" id="alignment" value="" />
+<div class="btn-group alignment" data-toggle="buttons-checkbox">
+    <button type="button" class="btn">1</button>
+    <button type="button" class="btn">2</button>
+    <button type="button" class="btn">3</button>
+    <button type="button" class="btn">4</button>
+    <button type="button" class="btn">5</button>
 </div>
-<div class="form-check">
-  <label class="form-check-label">
-    <input class="form-check-input" type="radio" name="ratingRadios"
-           id="ratingRadios2" value="2">
-     2 Star
-  </label>
-</div>
-<div class="form-check">
-  <label class="form-check-label">
-    <input class="form-check-input" type="radio" name="ratingRadios"
-           id="ratingRadios3" value="3">
-     3 Star
-  </label>
-</div>
-<div class="form-check">
-  <label class="form-check-label">
-    <input class="form-check-input" type="radio" name="ratingRadios"
-           id="ratingRadios4" value="4">
-     4 Star
-  </label>
-</div>
-<div class="form-check">
-  <label class="form-check-label">
-    <input class="form-check-input" type="radio" name="ratingRadios"
-           id="ratingRadios5" value="5">
-     5 Star
-  </label>
-</div>
+
+
 
 
 
