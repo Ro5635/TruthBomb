@@ -1,11 +1,9 @@
 <?php
-<<<<<<< HEAD
+
   //All of the controllers and there associated actions:
-$controllers = array('pages' => ['home', 'commentstest', 'about' , 'donate' ,'error'], 'secureajax' => ['verifymobile', 'resendmobileverification'] ,'ajax' => ['login', 'registervote' ,'createaccount','getresults'] , 'header' => ['std', 'error'] , 'footer' => ['std', 'error'] , 'login' => ['form'] , 'account' => ['verify']);
-=======
-  //All of the controllers and their associated actions:
-$controllers = array('pages' => ['home', 'commentstest', 'error', 'phptest'], 'secureajax' => ['verifymobile', 'resendmobileverification'] ,'ajax' => ['login', 'createaccount'] , 'header' => ['std', 'error'] , 'footer' => ['std', 'error'] , 'login' => ['form'] , 'account' => ['verify']);
->>>>>>> 15f3c9b2a805d701607a947026ca1ec552913015
+$controllers = array('pages' => ['home', 'commentstest', 'about' , 'donate' ,'error', 'phptest'], 'secureajax' => ['verifymobile', 'resendmobileverification'] ,'ajax' => ['login', 'registervote' ,'createaccount','getresults'] , 'header' => ['std', 'error'] , 'footer' => ['std', 'error'] , 'login' => ['form'] , 'account' => ['verify']);
+
+
 
 if (array_key_exists($controller, $controllers)) {
 
