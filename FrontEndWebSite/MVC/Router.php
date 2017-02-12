@@ -1,7 +1,7 @@
 <?php
 
   //All of the controllers and there associated actions:
-$controllers = array('pages' => ['home', 'commentstest', 'about' , 'donate' ,'error', 'phptest'], 'secureajax' => ['verifymobile', 'resendmobileverification'] ,'ajax' => ['login', 'registervote' ,'createaccount','getresults'] , 'header' => ['std', 'error'] , 'footer' => ['std', 'error'] , 'login' => ['form'] , 'account' => ['verify']);
+$controllers = array('pages' => ['home', 'commentstest', 'formsubmit','about' , 'donate' ,'error', 'phptest'], 'secureajax' => ['verifymobile', 'resendmobileverification'] ,'ajax' => ['login', 'registervote' ,'createaccount','getresults'] , 'header' => ['std', 'error'] , 'footer' => ['std', 'error'] , 'login' => ['form'] , 'account' => ['verify']);
 
 
 
