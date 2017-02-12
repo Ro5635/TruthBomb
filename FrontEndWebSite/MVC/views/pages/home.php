@@ -41,7 +41,7 @@ include($_SERVER['DOCUMENT_ROOT'].'/../PHPIncludes/Views/Menus/StdMenuBar.php');
         <div class="col-sm-4">
 	  </br>
       	  <a href="/pages/donate">
-	    <button type="button" class="btn btn-primary">Donate ⊂(´・ω・｀⊂)</button>
+	    <button type="button" class="btn btn-primary">Donate!!!</button>
 	  </a>
 	</div>
      </div>
