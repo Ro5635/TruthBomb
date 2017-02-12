@@ -36,6 +36,25 @@ class ajaxController {
 
 	}
 
+
+		/**
+	 * Handle the login attempt
+ 	* @return [type] [description]
+	 */
+	public function getresults() {
+
+		error_log("Got to message");
+	    //Model:
+		require_once('../MVC/models/Site.php');
+
+		//view:
+		require_once('views/ajax/getResults.php');
+
+
+	}
+
+
+
 	/**
 	 * Handdle the attemt to create an account
 	 * @return [type] [description]
