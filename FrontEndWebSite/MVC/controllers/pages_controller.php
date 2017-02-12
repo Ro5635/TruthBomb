@@ -76,7 +76,7 @@
 
       $pageRequirements->add("title", 'Truth Bomb');
 
-      $pageRequirements->add("js", ['assets/JS/js.js', 'assets/JS/DiscusScript.js']);
+      $pageRequirements->add("js", ['assets/JS/js.js', 'assets/JS/formjs.js', 'assets/JS/DiscusScript.js']);
 
       callStructural('header','std',$pageRequirements);
 
