@@ -23,7 +23,7 @@
 
       if(isset($jsFiles)){
          foreach ($jsFiles as $fileName) {
-            echo '<script async src="/' . $fileName . '"></script>';
+            echo '<script src="/' . $fileName . '"></script>';
          }
       }
       
