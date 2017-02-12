@@ -10,7 +10,7 @@ include($_SERVER['DOCUMENT_ROOT'].'/../PHPIncludes/Views/Menus/StdMenuBar.php');
 
   <!-- Title of site -->
 <div class="jumbotron text-center bg-primary">
-  <img src="truthbomblogo.png" alt="Truth Bomb's Logo">	 
+  <img src="cdn.webaddressgoeshere.com/AstonUniHack/truthbomblogo.png" alt="Truth Bomb's Logo">	 
     <a href="TruthBombSite.html"><h1><big><p class="text-white">Truth Bomb</p></big></h1></a>
 </div>
 
@@ -47,7 +47,3 @@ include($_SERVER['DOCUMENT_ROOT'].'/../PHPIncludes/Views/Menus/StdMenuBar.php');
  </div>  
 </body>
 
-<<<<<<< HEAD
-=======
-echo 'THIS IS THE PAGE Pineapple';
->>>>>>> 15f3c9b2a805d701607a947026ca1ec552913015
