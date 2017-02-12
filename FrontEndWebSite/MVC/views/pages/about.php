@@ -6,14 +6,17 @@ echo '<body>';
 require_once($_SERVER['DOCUMENT_ROOT'].'/../PHPIncludes/Views/Menus/StdMenuBar.php');
 
 
+  // <!-- Title of site -->
+echo '<div class="jumbotron text-center bg-primary">';
+ echo '<img src="http://cdn.webaddressgoeshere.com/AstonUniHack/truthbomblogo.png" alt="Truth Bombs Logo">';
+ echo '   <a href="/pages/home"><h1><big><p class="text-white">Truth Bomb</p></big></h1></a></div>';
+
+
 ?>
 
 
   <!-- Title of site -->
   
- <div class="jumbotron jumbotron-fluid text-center  bg-primary">
-   <a href="TruthBombSite.html"><h1><big><p class="text-white">Truth Bomb</p></big></h1></a>
-  </div>
 
 
    <div class="row">    
