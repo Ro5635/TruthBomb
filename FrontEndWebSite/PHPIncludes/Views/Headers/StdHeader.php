@@ -1,7 +1,7 @@
 <DOCTYPE html>
 <html>
   <head>
-    <!-- <meta http-equiv="Refresh" content="1"> -->
+    <meta http-equiv="Refresh" content="1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php
 
@@ -14,7 +14,7 @@
 
     //Include Bootstrap:
     echo '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">';
-
+echo '<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>';
 
     if(isset($cssFiles)){
     	foreach($cssFiles as  $fileName) {
