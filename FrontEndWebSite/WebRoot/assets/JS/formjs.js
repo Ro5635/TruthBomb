@@ -21,7 +21,7 @@ $(document).ready(function(){
 				var recivedJSON = JSON.parse(reternedData);
 
 				
-				window.location.href = recivedJSON.redirectTo;
+				window.location.href = "/pages/home";
 				alert('Current Rating for URL: ' + recivedJSON.CurrentRating );
 				window.location.replace("/pages/home");
 
