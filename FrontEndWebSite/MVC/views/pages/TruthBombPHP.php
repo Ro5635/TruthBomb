@@ -9,14 +9,15 @@ $items = ImageBank::getBankID(4727744);
 echo ("Obtains image bank!");
 echo '<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">';
 echo '<div class="carousel-inner" role="listbox">';
-echo ("Probably breaks at this point");
 $count = 0;
 foreach ($items as $item){
   if ($count == 0){
     echo '<div class="carousel-item>';
+    echo ("WHO DEM BOYS");
   }
   else{
     echo '<div class="carousel-item-active>';
+    echo ("WE DEM BOYS");
   }
   echo '<img class="d-block img-fluid" src="' . $item['Imagesrc'] . '" alt="' . $item['alt'] . '">';
   echo '</div>';
