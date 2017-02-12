@@ -18,6 +18,23 @@ class ajaxController {
 
 	}
 
+
+
+	/**
+	 * Handle the login attempt
+ 	* @return [type] [description]
+	 */
+	public function registerVote() {
+
+	    //Model:
+		require_once('../MVC/models/Site.php');
+
+		//view:
+		require_once('views/ajax/loginHandle.php');
+
+
+	}
+
 	/**
 	 * Handdle the attemt to create an account
 	 * @return [type] [description]
