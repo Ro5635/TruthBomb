@@ -10,6 +10,7 @@ echo ("Obtains image bank!");
 echo '<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">';
 echo '<div class="carousel-inner" role="listbox">';
 $count = 0;
+var_dump($items);
 foreach ($items as $item){
   if ($count == 0){
     echo '<div class="carousel-item active>';
