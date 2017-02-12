@@ -16,7 +16,7 @@ foreach ($items as $item){
   else{
     echo '<div class="carousel-item">';
   }
-  echo '<img class="d-block img-fluid style="max-width:500px" src="' . $item['Imagesrc'] . '" alt="' . $item['alt'] . '">';
+  echo '<img class="d-block img-fluid style="max-height: 100px" src="' . $item['Imagesrc'] . '" alt="' . $item['alt'] . '">';
   echo '</div>';
   $count++;
 }
